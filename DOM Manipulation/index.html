@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation</title>
+  </head>
+  <style>
+    .highlight {
+      color: yellow;
+      background-color: red;
+      font-weight: bold;
+    }
+    .paragraph {
+      padding: 10px;
+      color: #fff;
+      background-color: blue;
+    }
+    button {
+      padding: 10px;
+      color: #fff;
+      background-color: green;
+    }
+  </style>
+
+  <body>
+    <h2>DOM Manipulation</h2>
+    <p>Activity 1: Selecting and Manipulating Elements</p>
+
+    <p id="act1-task1">HTML is a structure.</p>
+
+    <h2 class="act1-task2"></h2>
+
+    <hr />
+    <!-- ---------------------------------------------------------------------- -->
+
+    <p>Activity 2: Creating and Appending Elements</p>
+
+    <div></div>
+
+    <ul class="UL">
+      <h4>Activities:</h4>
+      <li>Programming</li>
+      <li>Research</li>
+    </ul>
+
+    <hr />
+    <!-- ---------------------------------------------------------------------- -->
+
+    <p>Activity 3: Removing Elements"</p>
+
+    <h3 class="act3-task1">To Remov3 By DoM</h3>
+
+    <div id="container">
+      <p>First paragraph</p>
+      <p>Second paragraph</p>
+      <p>Third paragraph (to be removed)</p>
+    </div>
+
+    <hr />
+    <!-- ---------------------------------------------------------------------- -->
+
+    <p>Activity 4: Modifying Attributes</p>
+
+    <img
+      class="act4-task1"
+      src="https://images.stockcake.com/public/8/f/8/8f86fffa-197e-469a-9108-341fe0dd5d21_large/sunset-couple-walk-stockcake.jpg"
+      alt="image"
+      width="300px"
+      height="200px" />
+
+    <p id="myParagraph">This is a paragraph that will be highlighted.</p>
+
+    <button onclick="addClass()">Add Class</button>
+    <button onclick="removeClass()">Remove Class</button>
+
+    <hr />
+    <!-- ---------------------------------------------------------------------- -->
+
+    <p>Activity 5: Event Handling</p>
+
+    <p
+      id="act5-task1"
+      style="background-color: black; color: #fff; font-size: large">
+      Vaccinations are one of the most significant advancements in modern
+      medicine, providing essential protection against infectious diseases. By
+      getting vaccinated, individuals not only safeguard their own health but
+      also contribute to the overall well-being of their communities through
+      herd immunity. This collective immunity helps protect those who cannot be
+      vaccinated, such as infants and individuals with compromised immune
+      systems. Trusting the rigorous scientific research and testing behind
+      vaccines, we can confidently say that vaccines save lives and prevent the
+      spread of dangerous diseases. It's our responsibility to follow the
+      guidance of health professionals and get vaccinated to ensure a healthier
+      future for everyone.
+    </p>
+    <button class="paragraph">!!Click me!!</button>
+
+    <hr />
+
+    <h2 class="heading">
+     Confidence is the key to Success
+    </h2>
+
+    <button id="change" style="padding: 10px; background-color: aqua; color: darkblue;">!!Click me!!</button>
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
